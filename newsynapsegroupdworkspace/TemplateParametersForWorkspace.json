@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "newsynapsegroupdworkspace"
+		},
+		"ADLSJoin3_accountKey": {
+			"value": ""
+		},
+		"ADLSJoin4_accountKey": {
+			"value": ""
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"Coaches_connectionString": {
+			"value": ""
+		},
+		"Coaches2_connectionString": {
+			"value": ""
+		},
+		"Medals_connectionString": {
+			"value": ""
+		},
+		"Teams_connectionString": {
+			"value": ""
+		},
+		"join4_connectionString": {
+			"value": ""
+		},
+		"newsynapsegroupdworkspace-WorkspaceDefaultSqlServer_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:newsynapsegroupdworkspace.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
+		},
+		"ADLSJoin3_properties_typeProperties_url": {
+			"value": "https://newsynapseadlsaccount.dfs.core.windows.net/"
+		},
+		"ADLSJoin4_properties_typeProperties_url": {
+			"value": "https://newsynapseadlsaccount.dfs.core.windows.net/"
+		},
+		"newsynapsegroupdworkspace-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://newsynapseadlsaccount.dfs.core.windows.net"
+		}
+	}
+}
