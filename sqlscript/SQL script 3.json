@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 3",
+	"properties": {
+		"content": {
+			"query": "SELECT\n    NOC,\n    APPROX_COUNT_DISTINCT(Discipline) AS uniqueDiscipline,\n    SUM(Gold) AS GoldTotal,\n    SUM(Silver) AS SilverTotal,\n    SUM(Bronze) AS BronzeTotal\nFROM\n    OPENROWSET(\n        BULK 'https://newsynapseadlsaccount.dfs.core.windows.net/newsynapsefilesys/transformed-data/part-00000-cf1e67ff-53ca-48a2-b7d0-9ad1d11f12df-c000.csv',\n        FORMAT = 'CSV',\n        PARSER_VERSION = '2.0'\n    ) WITH (\n        [Name] VARCHAR(100),\n        NOC VARCHAR(100),\n        Discipline VARCHAR(100),\n        [Event] VARCHAR(100),\n        Rank INT,\n        [Team/NOC] VARCHAR(100),\n        Gold INT,\n        Silver INT,\n        Bronze INT,\n        Total INT,\n        [Rank by Total] INT\n    ) AS [result]\nGROUP BY\n    NOC;\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "master",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

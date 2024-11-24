@@ -1,0 +1,54 @@
+{
+	"name": "Medals",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Medals",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Medals.csv",
+				"folderPath": "raw-data/Data",
+				"container": "newsynapsefilesys"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Rank",
+				"type": "String"
+			},
+			{
+				"name": "Team/NOC",
+				"type": "String"
+			},
+			{
+				"name": "Gold",
+				"type": "String"
+			},
+			{
+				"name": "Silver",
+				"type": "String"
+			},
+			{
+				"name": "Bronze",
+				"type": "String"
+			},
+			{
+				"name": "Total",
+				"type": "String"
+			},
+			{
+				"name": "Rank by Total",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

@@ -1,0 +1,136 @@
+{
+	"name": "Dataflow1",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "Athletes",
+						"type": "DatasetReference"
+					},
+					"name": "Athelets"
+				},
+				{
+					"dataset": {
+						"referenceName": "Coaches2",
+						"type": "DatasetReference"
+					},
+					"name": "Coaches"
+				},
+				{
+					"dataset": {
+						"referenceName": "Teams",
+						"type": "DatasetReference"
+					},
+					"name": "Teams"
+				},
+				{
+					"dataset": {
+						"referenceName": "Medals",
+						"type": "DatasetReference"
+					},
+					"name": "Medals"
+				}
+			],
+			"sinks": [
+				{
+					"dataset": {
+						"referenceName": "join4",
+						"type": "DatasetReference"
+					},
+					"name": "sink1"
+				},
+				{
+					"dataset": {
+						"referenceName": "DelimitedText2join3",
+						"type": "DatasetReference"
+					},
+					"name": "sink2"
+				}
+			],
+			"transformations": [
+				{
+					"name": "join3"
+				},
+				{
+					"name": "join4"
+				},
+				{
+					"name": "join5"
+				}
+			],
+			"scriptLines": [
+				"source(output(",
+				"          Name as string,",
+				"          NOC as string,",
+				"          Discipline as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     ignoreNoFilesFound: false) ~> Athelets",
+				"source(output(",
+				"          Name as string,",
+				"          NOC as string,",
+				"          Discipline as string,",
+				"          Event as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     ignoreNoFilesFound: false) ~> Coaches",
+				"source(output(",
+				"          Name as string,",
+				"          Discipline as string,",
+				"          NOC as string,",
+				"          Event as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     ignoreNoFilesFound: false) ~> Teams",
+				"source(output(",
+				"          Rank as string,",
+				"          {Team/NOC} as string,",
+				"          Gold as string,",
+				"          Silver as string,",
+				"          Bronze as string,",
+				"          Total as string,",
+				"          {Rank by Total} as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     ignoreNoFilesFound: false) ~> Medals",
+				"Teams, Medals join(NOC == {Team/NOC},",
+				"     joinType:'left',",
+				"     matchType:'exact',",
+				"     ignoreSpaces: false,",
+				"     broadcast: 'auto')~> join3",
+				"join5, Coaches join(Athelets@NOC == Coaches@NOC",
+				"     && Athelets@Discipline == Coaches@Discipline,",
+				"     joinType:'right',",
+				"     matchType:'exact',",
+				"     ignoreSpaces: false,",
+				"     broadcast: 'auto')~> join4",
+				"Athelets, join3 join(Athelets@NOC == Teams@NOC",
+				"     && Athelets@Discipline == Teams@Discipline,",
+				"     joinType:'right',",
+				"     matchType:'exact',",
+				"     ignoreSpaces: false,",
+				"     broadcast: 'auto')~> join5",
+				"join4 sink(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     umask: 0022,",
+				"     preCommands: [],",
+				"     postCommands: [],",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true) ~> sink1",
+				"join3 sink(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     umask: 0022,",
+				"     preCommands: [],",
+				"     postCommands: [],",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true) ~> sink2"
+			]
+		}
+	}
+}

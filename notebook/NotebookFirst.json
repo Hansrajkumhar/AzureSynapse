@@ -1,0 +1,1276 @@
+{
+	"name": "NotebookFirst",
+	"properties": {
+		"nbformat": 4,
+		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "spark1",
+			"type": "BigDataPoolReference"
+		},
+		"sessionProperties": {
+			"driverMemory": "28g",
+			"driverCores": 4,
+			"executorMemory": "28g",
+			"executorCores": 4,
+			"numExecutors": 2,
+			"runAsWorkspaceSystemIdentity": false,
+			"conf": {
+				"spark.dynamicAllocation.enabled": "false",
+				"spark.dynamicAllocation.minExecutors": "2",
+				"spark.dynamicAllocation.maxExecutors": "2",
+				"spark.autotune.trackingId": "1f7f8972-d1d9-4678-a488-488af82753f6"
+			}
+		},
+		"metadata": {
+			"saveOutput": true,
+			"synapse_widget": {
+				"version": "0.1",
+				"state": {
+					"e722d8b7-6cab-4f87-ba28-1222b26dee4d": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [
+									{
+										"0": "Spectrum",
+										"1": "186432",
+										"2": "KDK/24-25/009309",
+										"3": "10/07/2024",
+										"4": "SONAWALLA & ASSOCIATES",
+										"5": "50445",
+										"6": "SONAWALLA & ASSOCIATES (50445)",
+										"7": "Ismailb. Sonawala",
+										"8": "200, 2ND Floor, Ashoka Shopping Centre, L.T Road, Next to G.T Hospital",
+										"9": "Mumbai",
+										"10": "MAHARASHTRA",
+										"11": "400001",
+										"12": "9820232172",
+										"13": "caibsonabb@gmail.com",
+										"14": "-",
+										"15": "Devendra Kumar Sen",
+										"16": "RENEWAL",
+										"17": "Renewal",
+										"18": "Spectrum Diamond MU",
+										"19": "SPEC_00336_02",
+										"20": "1",
+										"21": "8100",
+										"22": "0",
+										"23": "-",
+										"24": "8100",
+										"25": "18%",
+										"26": "0%",
+										"27": "0%",
+										"28": "18%",
+										"29": "1458",
+										"30": "0",
+										"31": "0.0",
+										"32": "1458.0",
+										"33": "9558.0",
+										"34": "07/05/2024",
+										"35": "Kotak Bank",
+										"36": "NEFT/RTGS",
+										"37": "CBINI24128687988(3618)",
+										"38": "07/05/2024",
+										"39": "Customer",
+										"44": "DIFM",
+										"45": "-",
+										"46": "KDK024",
+										"47": "-"
+									},
+									{
+										"0": "Spectrum",
+										"1": "182993",
+										"2": "KDK/24-25/008035",
+										"3": "01/07/2024",
+										"4": "MRADUL AGARWAL & ASSOCIATES",
+										"5": "48831",
+										"6": "MRADUL AGARWAL & ASSOCIATES (48831)",
+										"7": "Mradul Agarwal",
+										"8": "204 II FLOOR MEERA BAI MARG",
+										"9": "LUCKNOW",
+										"10": "UTTAR PRADESH",
+										"11": "226001",
+										"12": "9451643329",
+										"13": "mradulfca@gmail.com",
+										"14": "09AAEFM5858N1ZJ",
+										"15": "Devendra Kumar Sen",
+										"16": "RENEWAL",
+										"17": "Renewal",
+										"18": "Spectrum Diamond MU",
+										"19": "SPEC_00336_02",
+										"20": "1",
+										"21": "8100",
+										"22": "0",
+										"23": "-",
+										"24": "8100",
+										"25": "18%",
+										"26": "0%",
+										"27": "0%",
+										"28": "18%",
+										"29": "1458",
+										"30": "0",
+										"31": "0.0",
+										"32": "1458.0",
+										"33": "9558.0",
+										"34": "03/06/2024",
+										"35": "Kotak Bank",
+										"36": "IMPS",
+										"37": "CREDITCARD(3457)",
+										"38": "03/06/2024",
+										"39": "Customer",
+										"40": "779508053674111",
+										"41": "01/07/2024",
+										"42": "755430981afb5e0d69bd6632a61ea08ba6244c395ec1a483168824acb9e1a4d5",
+										"44": "DIFM",
+										"45": "-",
+										"46": "KDK024",
+										"47": "-"
+									},
+									{
+										"0": "Zen IT",
+										"1": "187826",
+										"2": "KDK/24-25/009850",
+										"3": "15/07/2024",
+										"4": "MANOJ SHAH & CO.",
+										"5": "37994",
+										"6": "MANOJ SHAH & CO. (37994)",
+										"7": "Manoj N Shah",
+										"8": "G-1, SHEEL RESIDENCY,B/H BAL BHAVAN,KARELIBAUG",
+										"9": "VADODARA",
+										"10": "GUJARAT",
+										"11": "390018",
+										"12": "9377719147",
+										"13": "mns5358@yahoo.co.in",
+										"14": "-",
+										"15": "Kamal Shah",
+										"16": "PARTNER",
+										"17": "Renewal",
+										"18": "Zen IT Auditor MU",
+										"19": "ZITR_00325_02",
+										"20": "1",
+										"21": "4050",
+										"22": "0",
+										"23": "-",
+										"24": "4050",
+										"25": "18%",
+										"26": "0%",
+										"27": "0%",
+										"28": "18%",
+										"29": "729",
+										"30": "0",
+										"31": "0.0",
+										"32": "729.0",
+										"33": "4779.0",
+										"34": "07/06/2024",
+										"35": "Kotak Bank",
+										"36": "CASH",
+										"37": "HDFC BANK(3136)",
+										"38": "07/06/2024",
+										"39": "Partner",
+										"40": "845287215699256",
+										"41": "15/07/2024",
+										"42": "01c9de62521696e95ae68e7093600b2830b020f173120a90aca4323bcb5647a8",
+										"44": "DIFM",
+										"45": "-",
+										"46": "KDKCP107",
+										"47": "-"
+									},
+									{
+										"0": "Spectrum",
+										"1": "183675",
+										"2": "KDK/24-25/008361",
+										"3": "03/07/2024",
+										"4": "PANKAJ SOOD",
+										"5": "58848",
+										"6": "PANKAJ SOOD (58848)",
+										"7": "Pankaj Sood",
+										"8": "6G SHAHPUR JAT NEAR, KHELGOAN",
+										"9": "New Delhi",
+										"10": "DELHI",
+										"11": "110049",
+										"12": "9555156600",
+										"13": "9555156600@unkown.com",
+										"14": "-",
+										"15": "Dinesh Kumar",
+										"16": "PARTNER",
+										"17": "Renewal",
+										"18": "Spectrum Gold SU",
+										"19": "SPEC_00329_02",
+										"20": "1",
+										"21": "3375",
+										"22": "0",
+										"23": "-",
+										"24": "3375",
+										"25": "18%",
+										"26": "0%",
+										"27": "0%",
+										"28": "18%",
+										"29": "607.5",
+										"30": "0",
+										"31": "0.0",
+										"32": "607.5",
+										"33": "3982.5",
+										"34": "17/06/2024",
+										"35": "Kotak Bank",
+										"36": "IMPS",
+										"37": "UPI HITECH(3495)",
+										"38": "17/06/2024",
+										"39": "Partner",
+										"40": "945726954157293",
+										"41": "03/07/2024",
+										"42": "963c2514acf3183bd449e46871c57e4b5a5e290d8e842d28a4e3e5b0936053f0",
+										"44": "DIFM",
+										"45": "-",
+										"46": "KDKCP105",
+										"47": "-"
+									},
+									{
+										"0": "Express TDS",
+										"1": "182835",
+										"2": "KDK/24-25/007936",
+										"3": "01/07/2024",
+										"4": "IFI TECHSOLUTIONS LIMITED",
+										"5": "28583",
+										"6": "IFI TECHSOLUTIONS LIMITED (28583)",
+										"7": "Ifi Techsolutions Private Limited",
+										"8": "1104 Peninsula Park,veera desai road, fun republic lane,near bhagwati house,Andheri west",
+										"9": "Mumbai",
+										"10": "MAHARASHTRA",
+										"11": "400053",
+										"12": "9899326587",
+										"13": "accounts@ifi.tech",
+										"14": "27AAECI4971P1ZV",
+										"15": "Anjali Singh",
+										"16": "RENEWAL",
+										"17": "Renewal",
+										"18": "Custom Corporate",
+										"19": "ETDS_CCorp_02",
+										"20": "1",
+										"21": "16000",
+										"22": "0",
+										"23": "-",
+										"24": "16000",
+										"25": "18%",
+										"26": "0%",
+										"27": "0%",
+										"28": "18%",
+										"29": "2880",
+										"30": "0",
+										"31": "0.0",
+										"32": "2880.0",
+										"33": "18880.0",
+										"34": "26/06/2024",
+										"35": "Kotak Bank",
+										"36": "NEFT/RTGS",
+										"37": "AXISP00511873259(3450)",
+										"38": "26/06/2024",
+										"39": "Customer",
+										"40": "513629117193453",
+										"41": "01/07/2024",
+										"42": "a22cff856216382b78fc069940029607d9bcdfab6f08d5815809ce4e115c45f5",
+										"44": "DIY",
+										"45": "-",
+										"46": "KDK843",
+										"47": "-"
+									},
+									{
+										"0": "Express TDS",
+										"1": "190723",
+										"2": "KDK/24-25/010612",
+										"3": "23/07/2024",
+										"4": "SUMAN POULTARY FARMING PVT LTD",
+										"5": "75536",
+										"6": "SUMAN POULTARY FARMING PVT LTD (75536)",
+										"7": "Mukesh Brahmankar",
+										"8": "DHANSHREE ESTATE",
+										"9": "RAIPUR",
+										"10": "CHHATTISGARH",
+										"11": "492001",
+										"12": "9630020069",
+										"13": "mukeshbrahmankar@gmail.com",
+										"14": "-",
+										"15": "Ravi Mandal",
+										"16": "SALES",
+										"17": "New Subscription",
+										"18": "Custom Corporate",
+										"19": "ETDS_CCorp_01",
+										"20": "1",
+										"21": "20000",
+										"22": "0",
+										"23": "-",
+										"24": "20000",
+										"25": "18%",
+										"26": "0%",
+										"27": "0%",
+										"28": "18%",
+										"29": "3600",
+										"30": "0",
+										"31": "0.0",
+										"32": "3600.0",
+										"33": "23600.0",
+										"34": "26/06/2024",
+										"35": "Kotak Bank",
+										"36": "NEFT/RTGS",
+										"37": "418347994361, CHQ NO. 094529(3784)",
+										"38": "26/06/2024",
+										"39": "Customer",
+										"44": "DIY",
+										"45": "-",
+										"46": "KDK905",
+										"47": "-"
+									},
+									{
+										"0": "Spectrum",
+										"1": "182951",
+										"2": "KDK/24-25/008003",
+										"3": "01/07/2024",
+										"4": "RAMKRISHNA MAYKER",
+										"5": "54177",
+										"6": "RAMKRISHNA MAYKER (54177)",
+										"7": "Ramkrishnac Mayekar",
+										"8": "1",
+										"9": "VADODARA",
+										"10": "GUJARAT",
+										"11": "390007",
+										"12": "7600859509",
+										"13": "bhumie2002@yahoo.co.in",
+										"14": "-",
+										"15": "Kamal Shah",
+										"16": "PARTNER",
+										"17": "Renewal",
+										"18": "Spectrum Gold SU",
+										"19": "SPEC_00329_02",
+										"20": "1",
+										"21": "3375",
+										"22": "0",
+										"23": "-",
+										"24": "3375",
+										"25": "18%",
+										"26": "0%",
+										"27": "0%",
+										"28": "18%",
+										"29": "607.5",
+										"30": "0",
+										"31": "0.0",
+										"32": "607.5",
+										"33": "3982.5",
+										"34": "27/06/2024",
+										"35": "Kotak Bank",
+										"36": "CASH",
+										"37": "HDFC BANK(3401)",
+										"38": "27/06/2024",
+										"39": "Partner",
+										"40": "623669023245385",
+										"41": "01/07/2024",
+										"42": "374d8ea0ff71eab81872eb0df02430a4ee47fcfb454c5c4d6326969c078ba863",
+										"44": "DIFM",
+										"45": "-",
+										"46": "KDKCP107",
+										"47": "-"
+									},
+									{
+										"0": "Spectrum",
+										"1": "182866",
+										"2": "KDK/24-25/007957",
+										"3": "01/07/2024",
+										"4": "ELEM BUSINESS INDIA PRIVATE LIMITED",
+										"5": "52201",
+										"6": "ELEM BUSINESS INDIA PRIVATE LIMITED (52201)",
+										"7": "Parasuram Mondal",
+										"8": "207 MAHARSHI DEVENDRA ROAD",
+										"9": "KOLKATA",
+										"10": "WEST BENGAL",
+										"11": "700007",
+										"12": "8617263031",
+										"13": "kol@airlinklogistics.com",
+										"14": "19AAFCE1696J1Z7",
+										"15": "Anjali Singh",
+										"16": "RENEWAL",
+										"17": "Renewal",
+										"18": "Spectrum Diamond Corporate MU",
+										"19": "SPEC_00340_02",
+										"20": "1",
+										"21": "12600",
+										"22": "3300",
+										"23": "S3JSXGL5YT",
+										"24": "9300",
+										"25": "18%",
+										"26": "0%",
+										"27": "0%",
+										"28": "18%",
+										"29": "1674",
+										"30": "0",
+										"31": "0.0",
+										"32": "1674.0",
+										"33": "10974.0",
+										"34": "29/06/2024",
+										"35": "Kotak Bank",
+										"36": "NEFT/RTGS",
+										"37": "0895673156(3454)",
+										"38": "29/06/2024",
+										"39": "Customer",
+										"40": "496552177625696",
+										"41": "01/07/2024",
+										"42": "dd8659cf22724ec378c96719c536c9d6303c796a7f9eddec1c103a06207621c6",
+										"44": "DIY",
+										"45": "-",
+										"46": "KDK843",
+										"47": "last year client paid 7200+gst he was saying itna price high kese renew karenge"
+									},
+									{
+										"0": "Express ITR",
+										"1": "183288",
+										"2": "KDK/24-25/008186",
+										"3": "02/07/2024",
+										"4": "Rajendra Khushal Nemade",
+										"5": "78642",
+										"6": "Rajendra Khushal Nemade (78642)",
+										"7": "Rajendra Khushal Nemade",
+										"8": "Sr. No. 67/2, Swami Krupa Building, Santosh Nagar, Katraj Pune",
+										"9": "Pune",
+										"10": "MAHARASHTRA",
+										"11": "411046",
+										"12": "8830386655",
+										"13": "sunita.nemade1988@gmail.com",
+										"14": "-",
+										"15": "Mayuresh Pramod Natoo",
+										"16": "PARTNER",
+										"17": "New Subscription",
+										"18": "Gold Auditor",
+										"19": "EITR_00281_01",
+										"20": "1",
+										"21": "5400",
+										"22": "0",
+										"23": "-",
+										"24": "5400",
+										"25": "18%",
+										"26": "0%",
+										"27": "0%",
+										"28": "18%",
+										"29": "972",
+										"30": "0",
+										"31": "0.0",
+										"32": "972.0",
+										"33": "6372.0",
+										"34": "29/06/2024",
+										"35": "Kotak Bank",
+										"36": "NEFT/RTGS",
+										"37": "418147722287(3479)",
+										"38": "29/06/2024",
+										"39": "Partner",
+										"40": "103611742291089",
+										"41": "02/07/2024",
+										"42": "a02fddfa83ee610895e4c5dcbe670cc539603af90af7f5271a1c31a99c4550d3",
+										"44": "DIFM",
+										"45": "-",
+										"46": "KDKCP122",
+										"47": "-"
+									},
+									{
+										"0": "Zen TDS",
+										"1": "183882",
+										"2": "KDK/24-25/008461",
+										"3": "03/07/2024",
+										"4": "Mahan Buildcon LLP",
+										"5": "42579",
+										"6": "Mahan Buildcon LLP (42579)",
+										"7": "Mahan Buildcon Llp",
+										"8": "D-407, Neelkanth Business Park",
+										"9": "Mumbai",
+										"10": "MAHARASHTRA",
+										"11": "400086",
+										"12": "9326426576",
+										"13": "mahanllp.info@gmail.com",
+										"14": "27ABDFM5387J1ZS",
+										"15": "Anjali Singh",
+										"16": "RENEWAL",
+										"17": "Renewal",
+										"18": "Custom Corporate",
+										"19": "ZTDS_CCorp_02",
+										"20": "1",
+										"21": "9000",
+										"22": "0",
+										"23": "-",
+										"24": "9000",
+										"25": "18%",
+										"26": "0%",
+										"27": "0%",
+										"28": "18%",
+										"29": "1620",
+										"30": "0",
+										"31": "0.0",
+										"32": "1620.0",
+										"33": "10620.0",
+										"34": "29/06/2024",
+										"35": "Kotak Bank",
+										"36": "IMPS",
+										"37": "418118786867(3515)",
+										"38": "29/06/2024",
+										"39": "Customer",
+										"40": "776934664488635",
+										"41": "03/07/2024",
+										"42": "0feca9c06b685ca8575661dafbfd973c83e4bb9018a7bc57886b8cbe17b2516d",
+										"44": "DIY",
+										"45": "-",
+										"46": "KDK843",
+										"47": "-"
+									}
+								],
+								"schema": [
+									{
+										"key": "0",
+										"name": "Product",
+										"type": "string"
+									},
+									{
+										"key": "1",
+										"name": "Subscription ID",
+										"type": "string"
+									},
+									{
+										"key": "2",
+										"name": "Invoice No",
+										"type": "string"
+									},
+									{
+										"key": "3",
+										"name": "Invoice Date",
+										"type": "string"
+									},
+									{
+										"key": "4",
+										"name": "Customer/Company Name",
+										"type": "string"
+									},
+									{
+										"key": "5",
+										"name": "Customer ID",
+										"type": "int"
+									},
+									{
+										"key": "6",
+										"name": "Customer/Company Name with Tenant ID",
+										"type": "string"
+									},
+									{
+										"key": "7",
+										"name": "Contact person Name",
+										"type": "string"
+									},
+									{
+										"key": "8",
+										"name": "Main Address",
+										"type": "string"
+									},
+									{
+										"key": "9",
+										"name": "City",
+										"type": "string"
+									},
+									{
+										"key": "10",
+										"name": "State",
+										"type": "string"
+									},
+									{
+										"key": "11",
+										"name": "Pincode",
+										"type": "string"
+									},
+									{
+										"key": "12",
+										"name": "Mobile No.",
+										"type": "string"
+									},
+									{
+										"key": "13",
+										"name": "Email Id",
+										"type": "string"
+									},
+									{
+										"key": "14",
+										"name": "Company GSTIN",
+										"type": "string"
+									},
+									{
+										"key": "15",
+										"name": "Sales Person Name",
+										"type": "string"
+									},
+									{
+										"key": "16",
+										"name": "Sales Group",
+										"type": "string"
+									},
+									{
+										"key": "17",
+										"name": "Sale Type",
+										"type": "string"
+									},
+									{
+										"key": "18",
+										"name": "Plan Name",
+										"type": "string"
+									},
+									{
+										"key": "19",
+										"name": "ARS Code",
+										"type": "string"
+									},
+									{
+										"key": "20",
+										"name": "Product Qty",
+										"type": "string"
+									},
+									{
+										"key": "21",
+										"name": "Plan MRP",
+										"type": "string"
+									},
+									{
+										"key": "22",
+										"name": "Discount Amount",
+										"type": "int"
+									},
+									{
+										"key": "23",
+										"name": "Voucher Code Applied",
+										"type": "string"
+									},
+									{
+										"key": "24",
+										"name": "Taxable Amount",
+										"type": "string"
+									},
+									{
+										"key": "25",
+										"name": "IGST Tax Rate (%)",
+										"type": "string"
+									},
+									{
+										"key": "26",
+										"name": "CGST Tax Rate (%)",
+										"type": "string"
+									},
+									{
+										"key": "27",
+										"name": "SGST Tax Rate (%)",
+										"type": "string"
+									},
+									{
+										"key": "28",
+										"name": "Tax Rate (%)",
+										"type": "string"
+									},
+									{
+										"key": "29",
+										"name": "Total IGST Tax Amount",
+										"type": "string"
+									},
+									{
+										"key": "30",
+										"name": "Total CGST Tax Amount",
+										"type": "string"
+									},
+									{
+										"key": "31",
+										"name": "Total SGST Tax Amount",
+										"type": "double"
+									},
+									{
+										"key": "32",
+										"name": "Total Tax Amount",
+										"type": "double"
+									},
+									{
+										"key": "33",
+										"name": "Invoice Value",
+										"type": "double"
+									},
+									{
+										"key": "34",
+										"name": "Payment Date",
+										"type": "string"
+									},
+									{
+										"key": "35",
+										"name": "Bank Ledger Name",
+										"type": "string"
+									},
+									{
+										"key": "36",
+										"name": "Payment Mode",
+										"type": "string"
+									},
+									{
+										"key": "37",
+										"name": "Payment Ref. No.",
+										"type": "string"
+									},
+									{
+										"key": "38",
+										"name": "Payment Received Date",
+										"type": "string"
+									},
+									{
+										"key": "39",
+										"name": "Billed to Customer/Partner",
+										"type": "string"
+									},
+									{
+										"key": "40",
+										"name": "Ack No.",
+										"type": "string"
+									},
+									{
+										"key": "41",
+										"name": "Ack Date",
+										"type": "string"
+									},
+									{
+										"key": "42",
+										"name": "IRN No.",
+										"type": "string"
+									},
+									{
+										"key": "43",
+										"name": "SignedQrCOde",
+										"type": "string"
+									},
+									{
+										"key": "44",
+										"name": "Organization Type",
+										"type": "string"
+									},
+									{
+										"key": "45",
+										"name": "Assisted By",
+										"type": "string"
+									},
+									{
+										"key": "46",
+										"name": "Sales Person Code",
+										"type": "string"
+									},
+									{
+										"key": "47",
+										"name": "Discount Request Reason",
+										"type": "string"
+									}
+								],
+								"truncated": false
+							},
+							"isSummary": false,
+							"language": "scala",
+							"wranglerEntryContext": {
+								"dataframeType": "pyspark"
+							}
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "sum",
+									"categoryFieldKeys": [
+										"0"
+									],
+									"seriesFieldKeys": [
+										"5"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					},
+					"0d0251db-4a79-490f-90bf-f79e60a897af": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [],
+								"schema": [
+									{
+										"key": "0",
+										"name": "Product",
+										"type": "string"
+									},
+									{
+										"key": "1",
+										"name": "Subscription ID",
+										"type": "string"
+									},
+									{
+										"key": "2",
+										"name": "Invoice No",
+										"type": "string"
+									},
+									{
+										"key": "3",
+										"name": "Invoice Date",
+										"type": "string"
+									},
+									{
+										"key": "4",
+										"name": "Customer/Company Name",
+										"type": "string"
+									},
+									{
+										"key": "5",
+										"name": "Customer ID",
+										"type": "int"
+									},
+									{
+										"key": "6",
+										"name": "Customer/Company Name with Tenant ID",
+										"type": "string"
+									},
+									{
+										"key": "7",
+										"name": "Contact person Name",
+										"type": "string"
+									},
+									{
+										"key": "8",
+										"name": "Main Address",
+										"type": "string"
+									},
+									{
+										"key": "9",
+										"name": "City",
+										"type": "string"
+									},
+									{
+										"key": "10",
+										"name": "State",
+										"type": "string"
+									},
+									{
+										"key": "11",
+										"name": "Pincode",
+										"type": "string"
+									},
+									{
+										"key": "12",
+										"name": "Mobile No.",
+										"type": "string"
+									},
+									{
+										"key": "13",
+										"name": "Email Id",
+										"type": "string"
+									},
+									{
+										"key": "14",
+										"name": "Company GSTIN",
+										"type": "string"
+									},
+									{
+										"key": "15",
+										"name": "Sales Person Name",
+										"type": "string"
+									},
+									{
+										"key": "16",
+										"name": "Sales Group",
+										"type": "string"
+									},
+									{
+										"key": "17",
+										"name": "Sale Type",
+										"type": "string"
+									},
+									{
+										"key": "18",
+										"name": "Plan Name",
+										"type": "string"
+									},
+									{
+										"key": "19",
+										"name": "ARS Code",
+										"type": "string"
+									},
+									{
+										"key": "20",
+										"name": "Product Qty",
+										"type": "string"
+									},
+									{
+										"key": "21",
+										"name": "Plan MRP",
+										"type": "string"
+									},
+									{
+										"key": "22",
+										"name": "Discount Amount",
+										"type": "int"
+									},
+									{
+										"key": "23",
+										"name": "Voucher Code Applied",
+										"type": "string"
+									},
+									{
+										"key": "24",
+										"name": "Taxable Amount",
+										"type": "string"
+									},
+									{
+										"key": "25",
+										"name": "IGST Tax Rate (%)",
+										"type": "string"
+									},
+									{
+										"key": "26",
+										"name": "CGST Tax Rate (%)",
+										"type": "string"
+									},
+									{
+										"key": "27",
+										"name": "SGST Tax Rate (%)",
+										"type": "string"
+									},
+									{
+										"key": "28",
+										"name": "Tax Rate (%)",
+										"type": "string"
+									},
+									{
+										"key": "29",
+										"name": "Total IGST Tax Amount",
+										"type": "string"
+									},
+									{
+										"key": "30",
+										"name": "Total CGST Tax Amount",
+										"type": "string"
+									},
+									{
+										"key": "31",
+										"name": "Total SGST Tax Amount",
+										"type": "double"
+									},
+									{
+										"key": "32",
+										"name": "Total Tax Amount",
+										"type": "double"
+									},
+									{
+										"key": "33",
+										"name": "Invoice Value",
+										"type": "double"
+									},
+									{
+										"key": "34",
+										"name": "Payment Date",
+										"type": "string"
+									},
+									{
+										"key": "35",
+										"name": "Bank Ledger Name",
+										"type": "string"
+									},
+									{
+										"key": "36",
+										"name": "Payment Mode",
+										"type": "string"
+									},
+									{
+										"key": "37",
+										"name": "Payment Ref. No.",
+										"type": "string"
+									},
+									{
+										"key": "38",
+										"name": "Payment Received Date",
+										"type": "string"
+									},
+									{
+										"key": "39",
+										"name": "Billed to Customer/Partner",
+										"type": "string"
+									},
+									{
+										"key": "40",
+										"name": "Ack No.",
+										"type": "string"
+									},
+									{
+										"key": "41",
+										"name": "Ack Date",
+										"type": "string"
+									},
+									{
+										"key": "42",
+										"name": "IRN No.",
+										"type": "string"
+									},
+									{
+										"key": "43",
+										"name": "SignedQrCOde",
+										"type": "string"
+									},
+									{
+										"key": "44",
+										"name": "Organization Type",
+										"type": "string"
+									},
+									{
+										"key": "45",
+										"name": "Assisted By",
+										"type": "string"
+									},
+									{
+										"key": "46",
+										"name": "Sales Person Code",
+										"type": "string"
+									},
+									{
+										"key": "47",
+										"name": "Discount Request Reason",
+										"type": "string"
+									}
+								],
+								"truncated": false
+							},
+							"isSummary": false,
+							"language": "scala",
+							"wranglerEntryContext": {
+								"candidateVariableNames": [
+									"df4"
+								],
+								"dataframeType": "pyspark"
+							}
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "sum",
+									"categoryFieldKeys": [
+										"0"
+									],
+									"seriesFieldKeys": [
+										"5"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					}
+				}
+			},
+			"enableDebugMode": false,
+			"language_info": {
+				"name": "python"
+			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/1884707a-007c-42a8-92b0-3b61acdc684f/resourceGroups/newSynapaseGroup/providers/Microsoft.Synapse/workspaces/newsynapsegroupdworkspace/bigDataPools/spark1",
+				"name": "spark1",
+				"type": "Spark",
+				"endpoint": "https://newsynapsegroupdworkspace.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/spark1",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net",
+					"authHeader": null
+				},
+				"sparkVersion": "3.4",
+				"nodeCount": 10,
+				"cores": 4,
+				"memory": 28,
+				"extraHeader": null
+			},
+			"sessionKeepAliveTimeout": 30
+		},
+		"cells": [
+			{
+				"cell_type": "code",
+				"source": [
+					"# Import necessary libraries\r\n",
+					"from pyspark.sql import SparkSession\r\n",
+					"\r\n",
+					"# Set up Spark session with Azure Data Lake Storage configurations\r\n",
+					"spark = SparkSession.builder \\\r\n",
+					"    .appName(\"Read CSV\") \\\r\n",
+					"    .config(\"fs.azure.account.auth.type.<your_account_name>.dfs.core.windows.net\", \"OAuth\") \\\r\n",
+					"    .config(\"fs.azure.account.oauth.provider.type.<your_account_name>.dfs.core.windows.net\", \"org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider\") \\\r\n",
+					"    .config(\"fs.azure.account.oauth2.client.id.<your_account_name>.dfs.core.windows.net\", \"<your_client_id>\") \\\r\n",
+					"    .config(\"fs.azure.account.oauth2.client.secret.<your_account_name>.dfs.core.windows.net\", \"<your_client_secret>\") \\\r\n",
+					"    .config(\"fs.azure.account.oauth2.client.endpoint.<your_account_name>.dfs.core.windows.net\", \"https://login.microsoftonline.com/<your_tenant_id>/oauth2/token\") \\\r\n",
+					"    .getOrCreate()\r\n",
+					"\r\n",
+					"# Read the CSV file from Azure Data Lake Storage\r\n",
+					"csv_file_path = \"abfss://newsynapsefilesys@newsynapseadlsaccount.dfs.core.windows.net/raw-data/Data/sdData.csv\"\r\n",
+					"df = spark.read.csv(csv_file_path, header=True, inferSchema=True)\r\n",
+					""
+				],
+				"execution_count": 32
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df.write.mode(\"overwrite\").saveAsTable(\"sddata.NIRenewal\")"
+				],
+				"execution_count": 33
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": false
+				},
+				"source": [
+					"df1 = spark.sql(\"select * from sddata.nirenewal\")\r\n",
+					"display(df1.limit(10))"
+				],
+				"execution_count": 46
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": false
+				},
+				"source": [
+					"# Perform the SQL query\r\n",
+					"df2 = spark.sql(\r\n",
+					"    \"SELECT `Sale Type`, SUM(`Invoice Value`) AS total_invoice_value \"\r\n",
+					"    \"FROM sddata.nirenewal \"\r\n",
+					"    \"GROUP BY `Sale Type`\"\r\n",
+					")\r\n",
+					"display(df2)"
+				]
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": false
+				},
+				"source": [
+					"df3 = spark.sql(\"select * from sddata.nirenewal where `Sale Type` =='Renewal'\")\r\n",
+					"df3.write.mode(\"overwrite\").saveAsTable(\"sddata.renewal\")"
+				],
+				"execution_count": 53
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"microsoft": {
+						"language": "python"
+					},
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": false
+				},
+				"source": [
+					"%%pyspark\r\n",
+					"df4 = spark.sql(\"select * from sddata.nirenewal where `Sale Type`=='Sales'\")\r\n",
+					"df4.repartition(1)\r\n",
+					"df4.write.mode(\"overwrite\").csv(\"/sdData/csvfile\")\r\n",
+					"df4.write.mode(\"overwrite\").parquet(\"/sdData/parquetfile\")"
+				],
+				"execution_count": 56
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": false
+				},
+				"source": [
+					"df6 = spark.sql(\"select * from sddata.nirenewal where `Sales Group` == 'SALES'\")\r\n",
+					"df6.repartition(1)\r\n",
+					"df6.write.mode(\"overwrite\").csv('/sdData/csvfile',header=True)\r\n",
+					"df6.write.mode(\"overwrite\").parquet('/sdData/parquetfile')"
+				],
+				"execution_count": 65
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": false
+				},
+				"source": [
+					"display(df6)"
+				]
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					""
+				]
+			}
+		]
+	}
+}
